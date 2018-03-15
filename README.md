@@ -30,6 +30,8 @@ For more information on contributing to this repository, see our [Contributions 
 
 Documentation for the ThreatConnectⓇ App Framework is available here: https://docs.threatconnect.com/en/latest/tcex/tcex.html. The framework provides commonly used Classes and Methods for writing ThreatConnect Apps. The Framework is intended to speed up the development process and ensure Apps contains the core functionality required.
 
++ https://docs.threatconnect.com/en/latest/java/java_sdk.html
+
 ## Contact
 If you have any questions, bugs, or requests please contact support@threatconnect.com.
 
