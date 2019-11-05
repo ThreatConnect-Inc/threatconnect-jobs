@@ -1,0 +1,31 @@
+{
+  "types": [
+  {
+    "allowMarkdown": false,
+    "description": "The name of the Threat detected by SlashNext Threat Intelligence in this indicator.",
+    "errorMessage": "Max length of SlashNext Threat Name attribute is 100 characters.",
+    "indicators": [
+      "Address",
+      "Host",
+      "Url"
+    ],
+    "maxLength": 100,
+    "name": "SlashNext Threat Name",
+    "system": false,
+    "version": 1
+  },
+  {
+    "allowMarkdown": false,
+    "description": "The type of the Threat detected by SlashNext Threat Intelligence in this indicator.",
+    "errorMessage": "Max length of SlashNext Threat Type attribute is 100 characters.",
+    "indicators": [
+      "Address",
+      "Host",
+      "Url"
+    ],
+    "maxLength": 100,
+    "name": "SlashNext Threat Type",
+    "system": false,
+    "version": 1
+  }]
+}
