@@ -1,0 +1,17 @@
+{
+  "types": [
+  {
+    "allowMarkdown": false,
+    "description": "The type of the Threat detected by Bitdefender in this indicator.",
+    "errorMessage": "Max length of attribute is 50 characters.",
+    "indicators": [
+      "Address",
+      "Host",
+      "File"
+    ],
+    "maxLength": 50,
+    "name": "Bitdefender Threat Type",
+    "system": false,
+    "version": 1
+  }]
+}
