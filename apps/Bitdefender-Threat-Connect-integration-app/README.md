@@ -47,7 +47,7 @@ order to configure the Bitdefender job, follow the steps mentioned below:
  4. In the next screen configure the Job parameters as follows:
 	 * **Bitdefeder API key** : The auth token that was provided by your Bitdefender representative. If you do not have an API key, send an email to oem-sales@bitdefender.com
 	 * **Feed Type** : choose the feeds for which you want data to be downloaded. The feed description can be found in the previous section - ***Introduction***
-	 * **Hash type** : for each file indicators, specify the hash type you want to be added. Currently for each file indicator, MD5, SHA1 and SHA256 are available as hash types. If there is a need to have multiple hashes available for each file indicator, recreate a new job and specify a different hash value
+	 * **Hash type** : for each file indicators, specify the hash type you want to be added. Currently for each file indicator, MD5, SHA1 and SHA256 are available as hash types. If there is a need to have multiple hashes available for each file indicator, create a separate job and specify a different hash value
 	 * **Threat Rating** : set  the default *Threat Rating* assigned by ThreatConnect Platform to the imported indicators
 	 * **Last Run** :enter 0 to retrieve data added in the last 30 days (default). Otherwise specify a  value in the yyyy-mm-dd format
 	 * **Confidence level** : modify the *Confidence* score assigned to imported indicators
