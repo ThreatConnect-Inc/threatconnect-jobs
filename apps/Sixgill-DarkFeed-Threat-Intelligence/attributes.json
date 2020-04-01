@@ -1,0 +1,34 @@
+{
+  "types": [
+  {
+    "allowMarkdown": false,
+    "description": "Threat actor that originally shared the indicator on on the dark web.",
+    "errorMessage": "Max length of Sixgill Actor attribute is 100 characters.",
+    "indicators": [
+      "Address",
+      "Host",
+      "File",
+      "URL"
+    ],
+    "maxLength": 100,
+    "name": "Sixgill Actor",
+    "system": false,
+    "version": 1
+  },
+  {
+  "allowMarkdown": false,
+  "description": "The language of the original post which included the indicator.",
+  "errorMessage": "Max length of Sixgill Language attribute is 100 characters.",
+  "indicators": [
+    "Address",
+    "Host",
+    "File",
+    "URL"
+  ],
+  "maxLength": 100,
+  "name": "Sixgill Language",
+  "system": false,
+  "version": 1
+}
+  ]
+}
