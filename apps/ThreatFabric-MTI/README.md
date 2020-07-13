@@ -1,0 +1,1 @@
+Only the user documentation for this integration is available in this directory. To download the executable for this integration, please contact ThreatFabric or ThreatConnect.
