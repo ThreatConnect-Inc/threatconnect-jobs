@@ -14,3 +14,6 @@ https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-I
 
 ## 1.0.2 (2021-03-26)
 * Phishing IPs and Domains deprecation.
+
+## 1.0.3 (2021-08-02)
+* Malware CNC IPs attributes added(First Seen, Last Seen) + additional Malware name tags
