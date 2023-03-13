@@ -17,3 +17,7 @@ https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-I
 
 ## 1.0.3 (2021-08-02)
 * Malware CNC IPs attributes added(First Seen, Last Seen) + additional Malware name tags
+
+## 1.0.4 (2023-03-06)
+* Threat extra fields added
+* Threat Actor extra fields added
