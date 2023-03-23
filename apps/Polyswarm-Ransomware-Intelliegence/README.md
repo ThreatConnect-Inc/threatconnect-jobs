@@ -13,9 +13,11 @@ User Guide: https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/
 
 ### PolyScore -> Confidence
 The PolySwarm Polyscore (0-1) is used to determine the ThreatConnect confidence level (1-100) by the following formula.
+
 $$  \lfloor polyscore*100 \rfloor $$
 
 
 ### Confidence -> Threat Rating
 The confidence score is then used to calculate a threat rating (1-5).
+
 $$  \lfloor confidence * 0.05 \rfloor $$
