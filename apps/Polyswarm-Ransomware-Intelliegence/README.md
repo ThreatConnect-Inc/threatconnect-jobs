@@ -1,5 +1,9 @@
 ChangeLog
 
+1.2.0
+- fix: delete hard coded app config
+- convert from using tcex args to inputs
+
 1.10 changelog for feed integration:
 - update tcex package
 - update polyswarm package
