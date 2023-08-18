@@ -15,3 +15,6 @@ ThreatConnect Threat Rating and Confidence translation
 
 Threat Rating = Cybersixgill Severity * 5/100  to fit our 5.0 threat rating scale 
 Confidence = Cybersixgill Confidence, 1:1 Mapping
+
+Version 1.1.1 Release Notes 
+Bugfix: Resolved job crash caused by unsupported file IOCs.
