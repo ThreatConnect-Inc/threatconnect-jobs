@@ -1,5 +1,8 @@
 ChangeLog
 
+1.2.1
+- remove threading
+
 1.2.0
 - fix: delete hard coded app config
 - convert from using tcex args to inputs
