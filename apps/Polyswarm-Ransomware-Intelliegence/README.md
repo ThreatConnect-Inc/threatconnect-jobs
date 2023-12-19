@@ -1,5 +1,8 @@
 ChangeLog
 
+1.2.2
+- increase indicator batch size
+
 1.2.1
 - remove threading
 
