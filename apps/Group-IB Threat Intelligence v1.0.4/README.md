@@ -1,7 +1,7 @@
 Group-IB Threat Intelligence 
 
 User Documentation:
-https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-IB%20Threat%20Intelligence/GIB_TI_ThreatConnect_User_Guide.pdf 
+https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-IB%20Threat%20Intelligence/TC_GroupIB_TI_v1.2.x_for_ThreatConnect_TIP.pdf 
 
 
 # Release Notes
@@ -20,3 +20,27 @@ https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-I
 
 ## 1.0.4 (2023-03-25)
 * Extra fields added to reports for the next collections: Threat, Threat Actor
+
+## 1.2.0 (2024-02-22)
+* Refactored connection logic
+* Data ingestion logic update
+* New collections added:
+  * attacks/phishing_group
+  * compromised/access
+  * compromised/account_group
+  * compromised/bank_card
+  * compromised/masked_card
+  * compromised/messenger
+  * hi/open_threats
+  * ioc/common
+  * osi/git_repository
+  * suspicious_ip/vpn
+  * suspicious_ip/scanner
+* Deprecated collections removed:
+  * compromised/account
+  * attacks/phishing
+  * bp/phishing
+  * bp/phishing_kit
+  * malware/targeted_malware
+  * osi/code_repository
+* About 50 fields where added to old collections' objects
