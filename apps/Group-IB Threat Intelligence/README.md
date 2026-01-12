@@ -45,7 +45,23 @@ https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-I
   * osi/code_repository
 * About 50 fields where added to old collections' objects
 
-## 1.3.0 (2026-01-12)
+## 1.3.0 (2025-12-18)
+
+### New Features
+- **Replaced Compromised Data :: Mules with Compromised Data :: SPD (Suspicious Payment Details)**: The `compromised_mule` collection has been replaced with `compromised_spd` to better reflect the nature of the data. 
+- **Enhanced Compromised Data :: Accounts filtering**: Added three new filter flags for the `compromised_account_group` collection:
+  - **Is in combolist?** (`compromised_account_group_combo`):  Filter accounts detected as a part of combolists
+  - **Is a unique record?** (`compromised_account_group_unique`): Filter for accounts from unique detection records
+  - **Filter for probable corporate access?** (`compromised_account_group_corp`): Filter accounts with probable corporate access indicators
+
+### Improvements
+- **Batch submission logic**: Fixed and improved batch submission logic to enhance data processing efficiency and reliability
+- **Code refactoring**: Major code refactoring and improvements for better maintainability and code quality
+- **Error handling**: Enhanced error handling and logging throughout the application for better debugging and monitoring
+- **Documentation**: 
+  - Improved overall documentation and user guidance
+- **Attributes**: Updated attribute definitions and mappings to support new data types and improve data accuracy
+
 
 <br>
 
