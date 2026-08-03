@@ -69,7 +69,7 @@ https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-I
   - Improved overall documentation and user guidance
 - **Attributes**: Updated attribute definitions and mappings to support new data types and improve data accuracy
 
-## 1.4.0 (2026-08-31)
+## 1.4.0 (2026-07-31)
 
 ### New collections
 
