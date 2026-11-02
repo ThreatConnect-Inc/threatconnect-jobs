@@ -5,6 +5,17 @@ https://github.com/ThreatConnect-Inc/threatconnect-jobs/blob/master/apps/Group-I
 
 # Release Notes
 
+## 1.4.1 (2026-11-02)
+
+### Reliability
+
+- **Malformed records never block a feed anymore**: a record the processor cannot handle is logged with its id and skipped; the rest of the page and the cursor still go through.
+- **Explicit `null` values** in Group-IB records (for example `cnc: null` on a compromised shop, or a source entry with a null id) no longer crash a collection.
+- **Missing attribute types** (ThreatConnect answers "does not exist in this system") stop the run and name the types, so they can be created under Org Settings > Attribute Types. Turn on _Skip missing attribute types_ to drop those attributes instead and keep the records.
+- Batch errors are summarised in the exit message instead of being dumped in full.
+- **Start date is honoured reliably.** When Group-IB does not return a position for the configured start date, the integration now computes one itself and logs a warning, instead of reading the whole collection from the beginning. Applies to all collections except OSI :: Vulnerability.
+- **ThreatConnect batch-job failures are retried**: when ThreatConnect aborts a batch on its side (`Error (0x1004): Encountered an unexpected Exception while processing batch job`), the page is rebuilt and resubmitted after a 60-second pause, up to three attempts, before the run fails. Previously the run died at once with that page's cursor unsaved.
+  
 ## 1.4.0 (2026-07-31)
 
 ### New collections
